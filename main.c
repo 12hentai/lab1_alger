@@ -16,7 +16,7 @@ int main() {
 	return 0;
 }
 
-exOne() {
+int exOne() {
 	int a,b,c,cOne = 0,aOne = 0,bOne = 0;
 	printf("Введiть число A = ");
 	scanf("%d",&a);
@@ -33,5 +33,7 @@ exOne() {
 	a = cOne;
 
 	printf("A = %d B = %d C = %d", a,b,c);
+
+	return 0;
 
 }
